@@ -45,16 +45,12 @@ class MainActivity : AppCompatActivity() {
         } else if ((opcaoApp == "Papel" && opcaoUser == "Tesoura")||
             (opcaoApp == "Pedra" && opcaoUser == "Papel") ||
             (opcaoApp == "Tesoura" && opcaoUser == "Pedra")){
+
             textoResultado.setText("Você Ganhou!!!")
+
         } else {
             textoResultado.setText("Empatamos!")
         }
 
-
-
-
-
     }
-
-
 }
